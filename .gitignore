@@ -1,0 +1,21 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# User credentials and local configs with real tokens
+.env
+*.token
+mcp_config.local.json
+
+# Local virtual environment
+.venv/
+venv/
+
+# OCR output dumps & temporary files
+*_images/
+*.tmp
+*.log
+*.bak

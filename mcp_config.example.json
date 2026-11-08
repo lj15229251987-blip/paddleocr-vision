@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "paddleocr-vl": {
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "--from",
+        "paddleocr-mcp",
+        "paddleocr_mcp"
+      ],
+      "env": {
+        "PADDLEOCR_MCP_MODEL": "PaddleOCR-VL-1.6",
+        "PADDLEOCR_MCP_PPOCR_SOURCE": "aistudio",
+        "PADDLEOCR_MCP_AISTUDIO_ACCESS_TOKEN": "<YOUR_AISTUDIO_ACCESS_TOKEN>"
+      }
+    },
+    "paddleocr-ocr": {
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "--from",
+        "paddleocr-mcp",
+        "paddleocr_mcp"
+      ],
+      "env": {
+        "PADDLEOCR_MCP_MODEL": "PP-OCRv6",
+        "PADDLEOCR_MCP_PPOCR_SOURCE": "aistudio",
+        "PADDLEOCR_MCP_AISTUDIO_ACCESS_TOKEN": "<YOUR_AISTUDIO_ACCESS_TOKEN>"
+      }
+    }
+  }
+}

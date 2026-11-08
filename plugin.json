@@ -1,0 +1,14 @@
+{
+  "name": "paddleocr-vision",
+  "displayName": "PaddleOCR Vision",
+  "version": "1.0.0",
+  "description": "High-fidelity OCR and document parsing with Baidu PaddleOCR (PaddleOCR-VL-1.6 & PP-OCRv6): Markdown conversion, formula and table extraction, and zero-context local disk dumping.",
+  "author": "lj15229251987-blip",
+  "homepage": "https://github.com/lj15229251987-blip/paddleocr-vision",
+  "repository": "https://github.com/lj15229251987-blip/paddleocr-vision",
+  "suggestedPrompts": [
+    "将指定 PDF / 扫描件通过 PaddleOCR 解析落盘为 Markdown",
+    "提取芯片数据手册或技术文档中的表格与公式",
+    "对图片或扫描文档执行纯文字 OCR 识别落盘"
+  ]
+}
